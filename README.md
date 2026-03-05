@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🇨🇭 Swiss-Grade Design-to-Code Bridge
 
-## Getting Started
+This project demonstrates a high-fidelity workflow between **Figma design tokens** and **React/TypeScript implementation**. Built for scalability, type-safety, and seamless developer hand-off.
 
-First, run the development server:
+## 🚀 Quick Start
 
-```bash
+To get the project running locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/iackar98/swiss-design-bridge.git](https://github.com/iackar98/swiss-design-bridge.git)
+   cd swiss-design-bridge
+
+   Install dependencies:
+
+Bash
+npm install
+
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Storybook (Component Documentation)
+To view the interactive component library and design system documentation:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Bash
+npm run storybook
+This will launch Storybook at http://localhost:6006.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠 Tech Stack
+Framework: Next.js (App Router)
 
-## Learn More
+Language: TypeScript (Strictly typed)
 
-To learn more about Next.js, take a look at the following resources:
+Styling: Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Documentation: Storybook 8+
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Certification: micro1 Certified Senior UX Engineer
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed by Ivan Ackar | Bridging the gap between complex data and intuitive UI.
